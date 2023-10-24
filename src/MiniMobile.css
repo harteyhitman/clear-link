@@ -9,6 +9,11 @@
     justify-content: center;
     align-items: center;
 }
+.shopify-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
 .advantage {
     font-family: Inter;
     font-size: 10px;
