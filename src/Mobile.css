@@ -1,0 +1,308 @@
+@media (max-width: 500px) {
+    Button{
+        padding: 5px;
+    }
+    .navbar-container {
+        display: none;
+        background-position: center;
+        background-size: contain;
+      }
+      .hamburgerMenu{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px;
+      }
+      .smilling-video img {
+        width: 300px;
+        height: 202px;
+        margin: 0px;
+}
+.united-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.united-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* padding: 26px 62px; */
+}
+.united-left {
+    display: flex;
+    flex-direction: column;
+    width: 307px;
+    margin: 0 auto;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    margin: 0px;
+}
+.marketplace-header img {
+    width: 300px;
+}
+.blue-btn {
+  padding: 5px;
+  }
+  .video-calls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 50px;
+    margin-top: -120px;
+}
+.shopify-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 180px;
+    margin-bottom: 100px;
+}
+.shopify-plenty {
+    color: var(--gray-900, #101828);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -0.88px;
+    width: 280px;
+}
+.accordion-item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray-600, #475467);
+    width: 350px;
+    margin: 0 auto;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.perfect-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    margin: 50px 0px;
+}
+.before-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8em;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 10px;
+    margin-top: 50px;
+    background: var(--gray-50, #F9FAFB);
+}
+.footer-container img{
+    width: 100px;
+    height: 10px;
+}
+.accordion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+.marketplace-header p {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray-600, #475467);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+.why-curly {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0px;
+}
+.why-curly img {
+   display: none;
+}
+.down-low {
+    color: var(--gray-500, #667085);
+    font-size: 12px;
+}
+.video-calls img {
+    width: 350px;
+    height: 300px;
+    margin: 0 auto;
+}
+.shopify-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+}
+.tech-contest {
+    
+    width: 300;
+    height: 250px;
+    margin: 0 auto;
+}
+.accordion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+.item-title {
+    color: var(--gray-900, #101828);
+    display: flex;
+    padding: 0px 40px;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+}
+.advantage {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+}
+.why{
+    width: 350px;
+    margin: 0 auto;
+    color: var(--gray-800, #1D2939);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; 
+  letter-spacing: -0.96px;
+  }
+  .united-right img {
+    width: 350px;
+    height: 300px;
+}
+.video-calls img {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+.clearlink-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .before-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+}
+@media (max-width: 350px) {
+    .tech-contest img {
+        height: 250px;
+        width: 200;
+}
+.tech-contest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advantage {
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+}
+.why{
+    width: 300px;
+}
+.mid-footer {
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: var(--gray-500, #667085);
+}
+.united-right img {
+    width: 300px;
+    height: 250px;
+}
+.faqs-container p {
+    color: var(--gray-500, #667085);
+    font-family: Inter;
+    font-size: 12px;
+    width: 250px;
+    margin: 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.faqs-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    /* margin: 0 auto; */
+}
+.marketplace-header p {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray-600, #475467);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+.marketplace-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 300px;
+    margin: 0 auto;
+}
+}
