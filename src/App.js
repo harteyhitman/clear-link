@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import './Mobile.css'
+import './MiniMobile.css'
 import UnitedSection from './Main/UnitedSection'
 import MarketPlace from './Main/MarketPlace'
 import Shoppify from './Main/Shoppify'
