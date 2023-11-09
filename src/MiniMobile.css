@@ -1,7 +1,10 @@
 
 @media (max-width: 350px) {
+    html, *{
+        border: 1px solid red;
+    }
     .tech-contest img {
-        height: 250px;
+        height: 200px;
         width: 200;
 }
 .tech-contest{
@@ -83,5 +86,51 @@
     font-style: normal;
     font-weight: 100;
     line-height: 24px;
+}
+.accordion-item-content, .perfect-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+    width: 250px;
+}
+.perfect-communication h2 {
+    color: var(--gray-900, #101828);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+.perfect-communication {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+.smilling-video img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    margin: 0px;
+}
+.check-img {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 20px;
+}
+.nav-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.check-img img {
+    width: 220px;
 }
 }
